@@ -1,0 +1,16 @@
+{
+  "name": "html5",
+  "version": "1.0.0",
+  "description": "Pure HTML5 accesibility example",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "accesibility",
+    "html5",
+    "a11ty"
+  ],
+  "author": "sdcaulley",
+  "license": "ISC"
+}

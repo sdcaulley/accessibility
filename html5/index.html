@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <title>a11ty - HTML5</title>
+    <link href="index.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <menu>
+          <li><a href="#order">Order</a></li>
+        </menu>
+      </nav>
+      <h1>Pinkie's Pizza Palace</h1>
+    </header>
+    <section id="order">
+      <h2>Order Form:</h2>
+      <form name="order-form">
+        <fieldset>
+          <legend>Crust</legend>
+          <label>
+            <input type="radio" value="hand-tossed">
+            Hand Tossed
+          </label>
+          <br>
+          <label>
+            <input type="radio" value="pan">
+            Pan
+          </label>
+          <br>
+          <label>
+            <input type="radio" value="thin">
+            Thin
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Sauce</legend>
+          <label for="sauce-select">
+            Choose your sauce:
+          </label>
+          <br>
+          <select id="sauce-select" name="sauce-select">
+            <option value="red">Red</option>
+            <option value="white">White</option>
+            <option value="half">Half and half</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Meat</legend>
+          <input type="checkbox" name="bacon" id="bacon">
+          <label for="bacon">Bacon</label>
+          <br>
+          <input type="checkbox" name="pepperoni" id="pepperoni">
+          <label for="pepperoni">Pepperoni</label>
+          <br>
+          <input type="checkbox" name="ham" id="ham">
+          <label for="ham">Ham</label>
+        </fieldset>
+        <fieldset>
+          <legend>Cheese</legend>
+          <label>
+            <input type="radio" name="mozzerella" id="mozzerella">
+            Mozzerella
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="cheddar">
+            Cheddar
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="jack" id="jack">
+            Colby-Jack
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Veggies</legend>
+          <label for="veggie-select">Choose 2 Veggies:</label>
+          <br>
+          <select name="veggie-select" id="veggie-select">
+            <option value="pineapple">Pineapple</option>
+            <option value="onion">Onion</option>
+            <option value="pepper">Bell Peper</option>
+            <option value="spinach">Spinach</option>
+          </select>
+        </fieldset>
+        <label>
+          Order Name:
+          <input type="text" name="order-name" id="order-name">
+        </label>
+        <br>
+        <label>
+          Additional Instructions:
+          <textarea name="additional-instructions" id="additional-items"></textarea>
+        </label>
+        <button>Submit</button>
+      </form>
+    </section>
+    <footer>
+      <p>Example by sdcaulley 2022</p>
+    </footer>
+  </body>
+</html>
